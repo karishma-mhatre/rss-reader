@@ -1,0 +1,83 @@
+.header{
+  text-align: center;
+  background-color: #1B3440;
+  color: #FFF;
+  font-size:5vh;
+  height: 60px;
+  padding-top: 20px;
+}
+
+.App {
+  text-align: center;
+}
+
+.form{
+  /*width:100%;*/
+  padding:20px;
+}
+.form input{
+  width: 70%;
+  font-size: 3vh;
+  padding:7px;
+  border: 1px solid #12232B;
+  border-radius: 10px;
+  color:#12232B;
+}
+
+.form input:focus{
+  box-shadow: 5px 5px 20px #B4D6C6;
+  border-color: #B4D6C6;
+}
+
+.form button{
+  margin: 10px;
+  font-size: 3vh;
+  background-color: #F2845C;
+  color: #fff;
+  padding: 10px 20px;
+  border: 0px;
+  cursor: pointer;
+  border-radius:10px;;
+}
+
+.title{
+  /*width: 100%;*/
+  font-size: 30px;
+  color: #12232B;
+}
+
+.feedList{
+  padding: 20px;
+}
+
+.feed{
+  padding: 0%;
+  margin: 0px;
+  background-color: #B4D6C6;
+  text-align: start;
+  margin-bottom: 20px;
+}
+
+.feedTitle{
+  color: #fff;
+  background-color: #F2845C;
+  padding: 10px;
+  color: #fff;
+}
+.feed a:link{
+  text-decoration: none;
+  color: #fff;
+}
+
+.feed a:visited{
+  text-decoration: none;
+  color: #fff;
+}
+
+.feed a:hover{
+  text-decoration: underline;
+}
+
+.feedContent{
+  padding: 20px;
+}
