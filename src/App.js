@@ -14,14 +14,11 @@ class App extends Component {
   //get Feeds function
   getFeeds = async (e) =>{
     e.preventDefault();
-    console.log("Inside getfeeds");
     let parser = new Parser();
     let feed = '';
     let URL = e.target.elements.url.value;
     await ( async() => {
       feed =  await parser.parseURL(`https://cors-anywhere.herokuapp.com/${URL}`);
-      console.log(feed.title);
-      console.log(feed.items);
     })();
       this.setState({
         feedTitle: feed.title,
